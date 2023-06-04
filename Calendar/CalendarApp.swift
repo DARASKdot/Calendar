@@ -1,9 +1,3 @@
-//
-//  CalendarApp.swift
-//  Calendar
-//
-//  Created by Hiroshi Inoue on R 5/06/04.
-//
 
 import SwiftUI
 

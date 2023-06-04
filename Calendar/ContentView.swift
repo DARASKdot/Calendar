@@ -1,21 +1,18 @@
-//
-//  ContentView.swift
-//  Calendar
-//
-//  Created by Hiroshi Inoue on R 5/06/04.
-//
+
+import SwiftUI
 
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        CalendarView { dateComponents in
+            guard let year = dateComponents.year,
+                  let month = dateComponents.month,
+                  let day = dateComponents.day else {
+                return
+            }
+            print("yate: \(year), month: \(month), day: \(day)")
         }
-        .padding()
     }
 }
 

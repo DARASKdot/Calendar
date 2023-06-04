@@ -11,6 +11,7 @@
 		720F289D2A2CBD240022C16D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720F289C2A2CBD240022C16D /* ContentView.swift */; };
 		720F289F2A2CBD250022C16D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 720F289E2A2CBD250022C16D /* Assets.xcassets */; };
 		720F28A32A2CBD250022C16D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 720F28A22A2CBD250022C16D /* Preview Assets.xcassets */; };
+		720F28AA2A2CBD9E0022C16D /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720F28A92A2CBD9E0022C16D /* CalendarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		720F289E2A2CBD250022C16D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		720F28A02A2CBD250022C16D /* Calendar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Calendar.entitlements; sourceTree = "<group>"; };
 		720F28A22A2CBD250022C16D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		720F28A92A2CBD9E0022C16D /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				720F289A2A2CBD240022C16D /* CalendarApp.swift */,
 				720F289C2A2CBD240022C16D /* ContentView.swift */,
+				720F28A92A2CBD9E0022C16D /* CalendarView.swift */,
 				720F289E2A2CBD250022C16D /* Assets.xcassets */,
 				720F28A02A2CBD250022C16D /* Calendar.entitlements */,
 				720F28A12A2CBD250022C16D /* Preview Content */,
@@ -141,6 +144,7 @@
 			files = (
 				720F289D2A2CBD240022C16D /* ContentView.swift in Sources */,
 				720F289B2A2CBD240022C16D /* CalendarApp.swift in Sources */,
+				720F28AA2A2CBD9E0022C16D /* CalendarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
